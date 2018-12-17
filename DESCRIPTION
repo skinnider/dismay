@@ -1,0 +1,22 @@
+Package: dismay
+Title: dismay: distance metrics for matrices
+Version: 0.0.1
+Description: dismay provides a common interface to calculate seventeen measures of association for matrices. Measures of association accessible through this common interface include standard correlations (Pearson, Spearman, Kendall), biweight midcorrelation, weighted rank correlation, a zero-inflated Kendall's tau, mutual information, the gene co-dependency index, Jaccard distance, cosine similarity, the Sorenson-Dice coefficient, Hamming distance, Canberra, Euclidean, and Manhattan distances, and two symmetric measures of proportionality.  
+Depends: R (>= 3.4.0)
+Imports:
+	arules (>= 1.6-1),
+	gtools (>= 3.5.0),
+	lsa (>= 0.73.1),
+	Matrix (>= 1.2.10),
+	pbapply (>= 1.3.4),
+	pcaPP (>= 1.9.72),
+	philentropy (>= 0.0.3),
+	propr (>= 3.1.8),
+	reshape2 (>= 1.4.2),
+	WGCNA (>= 1.51),
+	Rdpack
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RdMacros: Rdpack
+RoxygenNote: 6.1.0

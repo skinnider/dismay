@@ -30,6 +30,12 @@ To install `dismay` on your system, download the directory and install with devt
 devtools::install("/path/to/dismay")
 ```
 
+Or, install directly from GitHub:
+
+```
+devtools::install_github("skinnider/dismay")
+```
+
 This should take no more than a few minutes.
 
 ## Demonstration
